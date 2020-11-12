@@ -1,0 +1,21 @@
+.content {
+  margin: 50px;
+}
+
+.shimmer {
+  height: 1000px;
+  width: 1000px;
+  animation-name: shimmer-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-image: linear-gradient(to right, #9a9a9a, #c0c0c0);
+}
+
+@keyframes shimmer-animation {
+  0% {
+    background-position: 0 0px;
+  }
+  100% {
+    background-position: 1000px 0px;
+  }
+}
